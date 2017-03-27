@@ -18,6 +18,19 @@
 
     document.getElementById('container').appendChild(DOMobject);
 
+    let DOMred = document.createElement('div');
+    DOMred.style.width = '100px';
+    DOMred.style.height = '100px';
+    DOMred.style.background = 'red';
+
+    document.getElementById('container').appendChild(DOMred);
+
+    let DOMblue = document.createElement('div');
+    DOMblue.style.width = '100px';
+    DOMblue.style.height = '100px';
+    DOMblue.style.background = 'blue';
+
+    document.getElementById('container').appendChild(DOMblue);
 
     // function loadResults(results) {
     //     for(var i = 0; i < results.length; i++){
